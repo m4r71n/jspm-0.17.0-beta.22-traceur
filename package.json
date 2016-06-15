@@ -1,0 +1,15 @@
+{
+  "name": "jspm-0.17.0-beta.22-traceur",
+  "scripts": {
+	"postinstall": "jspm install && jspm bundle app/test.js bundle.js -wid"
+  },
+  "jspm": {
+    "devDependencies": {
+      "plugin-traceur": "npm:systemjs-plugin-traceur@^0.0.1"
+    }
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "jspm": "^0.17.0-beta.22"
+  }
+}
